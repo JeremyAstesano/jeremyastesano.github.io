@@ -10,7 +10,7 @@
   padding-left: 3%;
   padding-right: 3%;
   display: inline-block;
-  background-color: rgb(20,20,20);
+  background-color: rgb(54,54,54);
 
   width: 100%;
   text-align: center;
@@ -75,6 +75,7 @@ html {
 #home_background1 {
   height:40vw;
   background-image: url("../images/spotify/flow.png");
+  margin-top: 30px;
 }
 #home_background2 {
   background-image: url("../images/mentorhub/mentorhub_logo.jpg");
@@ -100,16 +101,21 @@ html {
 
 /* gray out background when not hovering */
 .h {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-}
+  /* -webkit-filter: contrast(100%);
+  filter: constrast(100%); */
+  -webkit-filter: hue-rotate(0deg);
+  filter: hue-rotate(0deg);
 
+
+}
 /* un-gray backgorund when hovering */
 .h:hover {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
+	/* -webkit-filter: contrast(120%);
+	filter: contrast(120%); */
+  -webkit-filter: hue-rotate(-20deg);
+	filter: hue-rotate(-20deg);
+  transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
 }
 
 
