@@ -95,7 +95,7 @@ html {
 
 #mentorhub_background1 {
   height:40vw;
-  background-image: url("../images/mentorhub/mentorhub_logo.jpg");
+  /* background-image: url("../images/mentorhub/mentorhub_logo.jpg"); */
 }
 
 /* gray out background when not hovering */
